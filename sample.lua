@@ -64,3 +64,11 @@ p.start(0)
 test()
 
 p.stop()
+
+
+--使用方法
+-- package.cpath = package.cpath .. ";./3rd/?.so"
+-- local luaperf = require "libluaperf"
+-- luaperf.enablesample(1)
+-- luaperf.start(0)
+-- luaperf.stop()
